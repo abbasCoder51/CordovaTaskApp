@@ -58,6 +58,7 @@ function addTasks()
 		
 		// retreive local storage key
 		//var storage_task = window.loadStorage.getItem("Task");
+		console.log("works");
 
 		// clear input field
 		getElement("text_task").value = "";
